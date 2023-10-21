@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -15,18 +14,22 @@
             <div class="form">
                 <img src="../images/logoBDG.jpg" class="user" alt="">
                 <h2>Sign Up</h2>
-                <form class="" action="index.html" method="post" enctype="multipart/form-data">
+                <form class="" action="#" method="post" enctype="multipart/form-data">
             
+                    <!-- <div class="inputBx">
+                        <input type="text" name="nama1"  placeholder="Nama" id="nama1"  required autofocus>
+                        <img src="images/user.png" alt="">
+                    </div> -->
+                    <!-- <div class="inputBx">
+                        <input type="text" name="email"  placeholder="Email" id="email"  required autofocus>
+                        <img src="images/user.png" alt="">
+                    </div> -->
                     <div class="inputBx">
-                        <input type="text" name="nama1"  placeholder="Nama" id="nama1" oninput="validation()" required autofocus>
+                        <input type="text" name="username"  placeholder="Username" id="username"  required autofocus>
                         <img src="images/user.png" alt="">
                     </div>
                     <div class="inputBx">
-                        <input type="text" name="username"  placeholder="Username" id="username" oninput="validation()" required autofocus>
-                        <img src="images/user.png" alt="">
-                    </div>
-                    <div class="inputBx">
-                        <input type="password" name="passward" id="password" placeholder="Passward" oninput="validation()" required>
+                        <input type="password" name="passward" id="password" placeholder="Passward"  required>
                         <img src="images/lock.png" alt="">
                     </div>
                     <!-- <label class="remeber"><input type="checkbox"> Remember Me</label> -->
@@ -43,16 +46,18 @@
             </div>
         </div>
     </section>
-    <script type="text/javascript">
+    <script type="module" src="../js/signup2.js"></script>
+    <!-- <script type="text/javascript">
     	function validation() {
+            let nama1 = document.getElementById("nama1").value;
 		    let username = document.getElementById("username").value;
 		    let pass = document.getElementById("password").value;
-		    if (username != "" && pass != "") {
+		    if (username != "" && pass != "" && nama1 != "") {
 		        document.getElementById("submit").disabled = false;
 		    } else {
 		        document.getElementById("submit").disabled = true;
 		    }
 		}
-    </script>
+    </script> -->
    </body>
 </html>

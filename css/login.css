@@ -17,8 +17,6 @@ section {
     
 }
 
-
-
 .box {
     position: relative;
     padding: 50px;
@@ -58,7 +56,6 @@ section {
         transform: translateY(0px);
     }
 }
-
 
 .box::after {
     content: "";
@@ -194,5 +191,9 @@ section {
 }
 
 #nama1::placeholder {
+    color: white;
+}
+
+#email::placeholder {
     color: white;
 }
