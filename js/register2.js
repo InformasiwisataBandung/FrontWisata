@@ -27,7 +27,7 @@ registerForm.addEventListener("submit", async (event) => {
 
         if (response.ok) {
             // Pendaftaran berhasil, alihkan ke halaman login.html
-            window.location.href = "../pages/login.html";
+            window.location.href = "../pages/loginn.html";
         } else {
             // Handle kesalahan jika diperlukan
             const data = await response.json();

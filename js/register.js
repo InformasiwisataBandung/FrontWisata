@@ -48,7 +48,7 @@ document.querySelector("form").addEventListener("submit", async (event) => {
         if (response.ok) {
             // Data berhasil disimpan ke MongoDB, Anda dapat mengarahkan pengguna ke halaman lain atau memberikan pesan sukses.
             //console.log("Data berhasil disimpan!");
-            window.location.href = "dashboardd.html";
+            window.location.href = "../pages/dashboardd.html";
         } else {
             console.error("Gagal menyimpan data ke MongoDB.");
         }
