@@ -159,7 +159,7 @@ section {
 }
 
 .box .form a:hover {
-    color: purple;
+    color: rgb(116, 207, 108);
 }
 
 @media screen and (max-width: 400px) {
@@ -196,4 +196,9 @@ section {
 
 #email::placeholder {
     color: white;
+}
+
+#error-message {
+    text-align: center;
+    background-color: crimson;
 }

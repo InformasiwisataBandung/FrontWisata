@@ -37,7 +37,7 @@ loginForm.addEventListener("submit", async (event) => {
         .then(data => {
             if (data.status === true) {
                 // Redirect user to user.html upon successful login
-                window.location.href = "../pages/user.html";
+                window.location.href = "../pages/dashboardd.html";
             } else {
                 // Handle failed login
                 errorMessage.textContent = "User not found"; // Tambahkan pesan kesalahan
