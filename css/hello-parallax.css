@@ -49,7 +49,8 @@
     }
     
     #parallax-1 {
-      background: url(https://source.unsplash.com/featured/?bandung);
+      /* background: url(https://source.unsplash.com/featured/?bandung); */
+      background-image: url(../images/bandungg.webp);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -62,7 +63,8 @@
     }
     
     #parallax-2 {
-      background: url(https://source.unsplash.com/featured/?computers);
+      /* background: url(https://source.unsplash.com/featured/?computers); */
+      background-image: url(../images/bandungg.webp);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -75,7 +77,8 @@
     }
     
     #parallax-3 {
-      background: url(https://source.unsplash.com/featured/?city);
+      /* background: url(https://source.unsplash.com/featured/?city); */
+      background-image: url(../images/bandungg.webp);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
