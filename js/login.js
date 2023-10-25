@@ -3,7 +3,7 @@ const loginForm = document.getElementById("loginForm");
 const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
 const submitButton = document.getElementById("submit");
-const errorMessage = document.getElementById("error-message"); //ini
+const errorMessage = document.getElementById("error-message");
 
 //Fungsi untuk mengecek apakah form telah diisi dengan benar 
 const validation = () => {
