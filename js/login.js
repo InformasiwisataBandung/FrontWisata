@@ -48,9 +48,6 @@ loginForm.addEventListener("submit", async (event) => {
         });
 });
 
-
-
-
 /**
 // Handle form submission
 loginForm.addEventListener("submit", async (event) => {
