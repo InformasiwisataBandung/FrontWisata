@@ -40,7 +40,7 @@ loginForm.addEventListener("submit", async (event) => {
                 window.location.href = "../pages/dashboardd.html";
             } else {
                 // Handle failed login
-                errorMessage.textContent = "User not found"; // Tambahkan pesan kesalahan
+                errorMessage.textContent = "Userr not found"; // Tambahkan pesan kesalahan
             }
         })
         .catch(error => {
